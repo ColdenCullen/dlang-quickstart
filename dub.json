@@ -1,0 +1,9 @@
+{
+    "name": "package_name",
+    "description": "<Package Description>",
+    "copyright": "Copyright © 2014, <Your Name>",
+    "license": "<License>",
+    "authors": ["<Your Name>"],
+    "dependencies": {
+    }
+}

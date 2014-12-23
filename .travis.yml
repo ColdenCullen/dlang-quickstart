@@ -1,0 +1,12 @@
+language: d
+d:
+  - dmd-2.066.1
+  - ldc-0.15.1
+  - gdc-4.9.0
+sudo: false
+
+install:
+# - wget -q -O - "http://bit.ly/GetDoveralls" | bash
+script:
+  - dub test -b unittest-cov
+# - ./doveralls
