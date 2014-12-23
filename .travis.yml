@@ -6,7 +6,8 @@ d:
 sudo: false
 
 install:
-# - wget -q -O - "http://bit.ly/GetDoveralls" | bash
+  - wget -q -O - "http://bit.ly/GetDoveralls" | bash
+  - chmod +x doveralls
 script:
   - dub test -b unittest-cov --compiler=${DC}
-# - ./doveralls
+  - ./doveralls
