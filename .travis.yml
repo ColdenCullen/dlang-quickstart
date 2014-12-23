@@ -8,5 +8,5 @@ sudo: false
 install:
 # - wget -q -O - "http://bit.ly/GetDoveralls" | bash
 script:
-  - dub test -b unittest-cov
+  - dub test -b unittest-cov --compiler=${DC}
 # - ./doveralls
